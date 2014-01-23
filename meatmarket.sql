@@ -1,5 +1,4 @@
-DROP TABLE ratings;
-CREATE TABLE ratings (
+CREATE TABLE daily_stats (
     interval        timestamp,
     topic           text,
     users           hll,
